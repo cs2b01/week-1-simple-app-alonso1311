@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-</head>
+	<head></head>
 
-<body>
-Content of the document......
-</body>
-
+	<body>
+		<h1>MyCHAT</h1>
+		<input id = "user" type = "text" placeholder = "Username">
+		<p></p>
+		<input id = "pass" type = "password" placeholder = "Password">
+		<p></p>
+		<input type = "submit" value = "LOG IN">
+		<script language = "JavaScript">
+			us = document.getElementById("user")
+			pw = document.getElementById("pass")
+			if(us == pw){
+				alert("Oh snap! Invalid password or username") 
+			}
+		</script>
+	</body>
+		
 </html>
